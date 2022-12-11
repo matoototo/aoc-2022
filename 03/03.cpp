@@ -54,7 +54,7 @@ int p2(const std::vector<std::string>& lines) {
 }
 
 int main() {
-    std::ifstream f("input");
+    std::ifstream f("../03/input");
 
     auto lines = process_input(f);
     for (char c = 'a'; c <= 'z'; c++) {

@@ -52,7 +52,7 @@ int p2(const std::vector<range>& ranges) {
 }
 
 int main() {
-    std::ifstream f("input");
+    std::ifstream f("../04/input");
     auto ranges{parse_input(f)};
     std::cout << p1(ranges) << std::endl;
     std::cout << p2(ranges) << std::endl;

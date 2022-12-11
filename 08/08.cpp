@@ -138,7 +138,7 @@ long long p2(const std::vector<std::shared_ptr<Node>>& nodes) {
 }
 
 int main() {
-    std::ifstream f{"input"};
+    std::ifstream f{"../08/input"};
     auto nodes = process_input(f);
     std::cout << p1(nodes) << std::endl;
     std::cout << p2(nodes) << std::endl;

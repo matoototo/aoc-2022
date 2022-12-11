@@ -40,7 +40,7 @@ int score_p2(const round_vector& rounds) {
 }
 
 int main() {
-    std::ifstream in("input");
+    std::ifstream in("../02/input");
     auto rounds = process_input(in);
     std::cout << score_p1(rounds) << std::endl;
     std::cout << score_p2(rounds) << std::endl;

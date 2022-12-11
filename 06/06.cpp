@@ -40,7 +40,7 @@ int p2(const std::string_view& s) {
 
 
 int main() {
-    std::ifstream f{"input"};
+    std::ifstream f{"../06/input"};
     auto input = process_input(f);
     std::cout << p1(input) << std::endl;
     std::cout << p2(input) << std::endl;

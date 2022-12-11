@@ -110,7 +110,7 @@ std::string p2(State s, const commands& c) {
 }
 
 int main() {
-    std::ifstream f{"input"};
+    std::ifstream f{"../05/input"};
     auto [state, commands] = process_input(f);
     std::cout << p1(state, commands) << std::endl;
     std::cout << p2(state, commands) << std::endl;

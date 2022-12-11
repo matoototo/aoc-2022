@@ -104,7 +104,7 @@ uint p2(const std::vector<Vec>& movements) {
 }
 
 int main() {
-    std::ifstream f{"input"};
+    std::ifstream f{"../09/input"};
     auto movements = process_input(f);
     std::cout << p1(movements) << std::endl;
     std::cout << p2(movements) << std::endl;

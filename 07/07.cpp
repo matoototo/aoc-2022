@@ -117,7 +117,7 @@ long long p2(std::shared_ptr<Node> root) {
 }
 
 int main() {
-    std::ifstream f{"input"};
+    std::ifstream f{"../07/input"};
     auto root = process_input(f);
     std::cout << p1(root) << std::endl;
     std::cout << p2(root) << std::endl;

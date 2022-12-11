@@ -89,7 +89,7 @@ std::string p2(const std::vector<std::shared_ptr<Instruction>>& instructions, St
 }
 
 int main() {
-    std::ifstream f{"input"};
+    std::ifstream f{"../10/input"};
     State s;
     auto instructions = process_input(f);
     std::cout << p1(instructions, s) << std::endl;

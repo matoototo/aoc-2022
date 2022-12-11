@@ -54,7 +54,7 @@ int sum_top_n(const std::vector<Elf>& elves, int n) {
 }
 
 int main() {
-    std::ifstream in("input");
+    std::ifstream in("../01/input");
     auto elves = process_input(in);
     std::cout << max_sum(elves) << '\n';
     sort_sums(elves);
