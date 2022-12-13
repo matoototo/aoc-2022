@@ -26,3 +26,7 @@ add_executable(9 09/09.cpp)
 add_executable(10 10/10.cpp)
 
 add_executable(11 11/11.cpp)
+
+add_executable(12 12/12.cpp)
+
+add_executable(13 13/13.cpp)
