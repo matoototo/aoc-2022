@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.23.3)
 
 project(aoc-2022 LANGUAGES CXX)
 
+# set(CMAKE_CXX_FLAGS "-O3 -Wall -Wextra")
 set(CMAKE_CXX_COMPILER clang++)
 set(CMAKE_CXX_STANDARD 20)
 
@@ -30,3 +31,5 @@ add_executable(11 11/11.cpp)
 add_executable(12 12/12.cpp)
 
 add_executable(13 13/13.cpp)
+
+add_executable(14 14/14.cpp)
